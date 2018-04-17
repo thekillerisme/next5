@@ -12,6 +12,7 @@ There are two API endpoints:
 - Run "npm install"
 - Run "npm run dev" (the app works in development environment)
 - If "npm run dev" fails on Linux try installing libpng library ( On centos 7 run "yum install -y libpng12"). Then retry "npm run dev"
+- Run "php artisan migrate"
 - Run "php artisan db:seed"
 - Go to your project dir and run "chmod 777 -R storage"
 
